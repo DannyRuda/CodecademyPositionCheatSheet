@@ -1,0 +1,28 @@
+#Leiste {
+    background-color: bisque;
+    height:300px;
+    width:100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica;
+    background-color: rgb(219, 172, 114);
+    margin: 0px;
+    padding: 20px 0 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #5c2d04;
+}
+
+body {
+    margin-top: 0px;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: aquamarine;
+}
+
