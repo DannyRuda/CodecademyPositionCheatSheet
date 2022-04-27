@@ -1,7 +1,5 @@
-#Leiste {
-    background-color: bisque;
-    height:300px;
-    width:100%;
+* {
+    font-family: Helvetica, sans-serif;
 }
 
 h1 {
@@ -13,6 +11,31 @@ h1 {
     font-size: 50px;
     font-weight: bold;
     color: #5c2d04;
+    display: inline-block;
+    width: 1887px;
+}
+
+#Leiste1 {
+    background-color: bisque;
+    height:296px;
+    width:1887px;
+    
+}
+
+#Leiste2 {
+    background-color: rgb(231, 222, 137);
+    height:290px;
+    display: inline-block;
+    width:920px;
+    
+}
+
+#Leiste3 {
+    background-color: rgb(224, 151, 109);
+    height:290px;
+    display: inline-block;
+    width:920px;
+    
 }
 
 body {
@@ -24,5 +47,129 @@ body {
     width: 200px;
     display: inline-block;
     background-color: aquamarine;
+    opacity: 0.5;
+}
+
+#eins {
+    width: 259px;
+    height: 124px;
+    background-color: #BBD68F;
+}
+
+#zwei {
+    width: 227px;
+    height: 249px;
+    background-color: #A9CAFD;
+    opacity: 0.64;
+}
+
+#drei {
+    width: 383px;
+    height: 150px;
+    background-color: #E16060;
+}
+
+#vier {
+    width: 215px;
+    height: 145px;
+    background-color: #F3E881;
+    opacity: 0.83;
+}
+
+#funf {
+    width: 424px;
+    height: 122px;
+    background-color: #F1A6F2;
+    opacity: 0.74;
+}
+
+#sechs {
+    width: 100px;
+    height: 100px;
+    background-color: #490303;
+    opacity: 0.79;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p,ul {
+    font-size: 22px;
+    text-align: left;
+   
+    
+}
+
+.static {
+    margin-left: 200px;
+    display: inline-block;
+    width: 1500px;
+}
+
+.code {
+    font-family: monospace;
+    background-color: #1f2836;
+    color: white;
+}
+
+.position {
+    position: relative;
+}
+
+#Leiste_1 {
+    background-color: bisque;
+    height:296px;
+    width:1887px;
+    
+}
+
+#Leiste_2 {
+    background-color: rgb(231, 222, 137);
+    height:290px;
+    display: inline-block;
+    width:920px;
+    
+}
+
+#Leiste_3 {
+    background-color: rgb(224, 151, 109);
+    height:290px;
+    display: inline-block;
+    width:920px;
+}
+
+h2#position {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#Leiste_1 #zwei {
+   position: relative;
+   top: 20px;
+}
+
+#Leiste_1 #drei {
+    position:absolute;
+}
+
+table {
+    margin: 50px auto;
+    border: 3px solid brown;
+    text-align: left;
+    line-height: 1.5;
+    width: 700px;
+}
+
+th {
+    font-size: 25px;
+    margin: 15px 30px;
+}
+
+td {
+    font-size: 18px;
+    margin: 10px;
 }
 
