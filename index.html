@@ -13,10 +13,11 @@
     <header>
 
         <h1>Positioning of Elements with CSS Property "position"</h1>
-
-        <div id="Leiste">
+        
+        <div id="Leiste1">
 
             <div class="box" id="eins" >
+                
             </div>
 
             <div class="box" id="zwei" >
@@ -30,9 +31,163 @@
 
             <div class="box" id="funf" >
             </div>
+
+            <div class="box" id="sechs" >
+            </div>
+        </div>
+
+        <div id="Leiste2">
+
+            <div class="box" id="eins" >
+            </div>
+
+            <div class="box" id="zwei" >
+            </div>
+
+            <div class="box" id="drei" >
+            </div>
+
+            
+        </div>
+
+        <div id="Leiste3">
+
+            <div class="box" id="vier" >
+            </div>
+
+            <div class="box" id="funf" >
+            </div>
+
+            <div class="box" id="sechs" >
+            </div>
+
+            
         </div>
         
     </header>
+
+    <main>
+       <container class="static">
+           <h2>
+               Static HTML Flow:
+           </h2>
+           <p>
+               Im folgenden werde ich verschiedene Beispiele wie oben zu sehen zeigen und erläutern. Das obere Beispiel besteht aus den Elementen:
+           </p>
+
+           <ul>
+               <li>h1</li>
+               <li>3 divs für die farbigen Hintergründe, vor denen die farbigen Formen positioniert sind</li>
+               <li>divs für die farbigen Formen</li>
+           </ul>
+
+           <p>
+               Dabei wurden sowohl die unteren beiden Hintergründe als auch die farbigen Formen auf <span class="code">display: inline-block;</span> gesetzt. <br> 
+               Anhand der Sortierung im oberen Hintergrund erkennt man, dass sich <span class="code">inline-block</span> Elemente mit unterschiedlicher Höhe standardmäßig 
+               so positionieren, dass die unteren Kanten auf einer Höhe liegen. <br>
+               Anhand der Sortierung in den unteren beiden Hintergründen, die auch beide <span class="code">inline-block</span> Elemente sind, erkennt man, dass sich die vertikale
+               Positionierung eines Parent Elements im inline-block Modus mit Child Elementen im inline-block Modus so ausrichtet, dass die oben beschriebene Sortierung der 
+               Child Elemente gegeben ist. Dadurch ist der rechte Hintergrund nach unten verrutscht.
+           </p>
+
+       </container>
+    
+       <h2 id="position">CSS <span>position: relative;</span> und <span>position: absolute; :</span></h2>
+
+        <div class="position">
+            <div id="Leiste_1">
+
+                <div class="box" id="eins" >
+                    
+                </div>
+
+                <div class="box" id="zwei" >
+                </div>
+
+                <div class="box" id="drei" >
+                </div>
+
+                <div class="box" id="vier" >
+                </div>
+
+                <div class="box" id="funf" >
+                </div>
+
+                <div class="box" id="sechs" >
+                </div>
+            </div>
+        
+
+            <div id="Leiste_2">
+
+                <div class="box" id="eins" >
+                </div>
+
+                <div class="box" id="zwei" >
+                </div>
+
+                <div class="box" id="drei" >
+                </div>
+
+                
+            </div>
+
+            <div id="Leiste_3">
+
+                <div class="box" id="vier" >
+                </div>
+
+                <div class="box" id="funf" >
+                </div>
+
+                <div class="box" id="sechs" >
+                </div>
+            </div>
+        </div>
+
+        <container class="static">
+            <h2>
+                Hintergrund 1
+            </h2>
+            <p>
+                Die 3 Hintergründe befinden sich alle in einen Div mit <span class="code">position: relative;</span> und das Beispiel besteht aus den gleichen Elementen wie oben. <br>
+                Folgende Tabelle zeigt die einzelnen properties und values der Formen.
+            </p>
+
+            <table>
+                <thead>
+                    <tr>
+                    
+                        <th>Farbe der Form</th>
+                        <th>Property</th>
+                        <th>Value</th>
+                    
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td rowspan="2">green</td>
+                        
+                            <td>position</td>
+                            <td>static</td>
+                        
+                    </tr>
+                    <tr>
+                        
+                            <td>display</td>
+                            <td>inline-block</td>
+                        
+                    </tr>
+                </tbody>
+                
+            </table>
+ 
+            
+ 
+        </container>
+
+    </main>
     
 </body>
 
